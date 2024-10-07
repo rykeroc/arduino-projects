@@ -31,5 +31,5 @@ void loop() {
     return;
   }
 
-  Serial.printf("Temperature: %f *C\tHumidity: %f%\n", t, h);
+  Serial.printf("Temperature: %.2f *C\tHumidity: %.2f%\n", t, h);
 }
